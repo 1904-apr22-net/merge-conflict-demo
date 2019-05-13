@@ -4,14 +4,15 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models;
-
+using WebApplication1.Models;
 namespace WebApplication1.Controllers
 {
     public class Tenderloin : Controller
     {
         public IActionResult Privacy()
         {
+            var x = 1;
+            x++;
             return View();
         }
 
